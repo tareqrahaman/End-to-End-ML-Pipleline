@@ -10,3 +10,4 @@ joblib
 types-PyYAML
 Flask
 Flask-Cors
+-e .  # It finds the setup.py file and installs the package in editable mode
