@@ -10,7 +10,7 @@ class DataValidation:
       validation = None
 
       data = pd.read_csv("artifacts\data_ingestion\winequality-red.csv")
-      all_cols = list(data.columns[:-1])
+      all_cols = list(data.columns)
       all_schema = self.config.all_schema.keys()
       for col in all_cols:
         if col not in all_schema:
